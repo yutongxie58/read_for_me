@@ -148,7 +148,7 @@ def process_file(file_path, gender='male', speed=1.0, pitch=0.0):
 
 if __name__ == "__main__":
     # Replace with the path to your PDF or EPUB file
-    file_path = './my_files/silent_reading.pdf'
+    file_path = 'path/to/your/file.pdf'
     
     # You can adjust gender, speed, and pitch here
     process_file(file_path, gender='male', speed=1.1, pitch=0.0)
