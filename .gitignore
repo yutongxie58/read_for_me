@@ -1,0 +1,12 @@
+# Ignore environment variables and credentials
+.env
+tts-project.json
+
+# Ignore directories for virtual environments
+venv/
+__pycache__/
+*.pyc
+
+# Ignore uploaded files and generated audio
+uploads/
+audio_files/
