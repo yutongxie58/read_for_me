@@ -20,14 +20,14 @@ cd read-for-me
 
 ### 2. Create a Virtual Environment
 
-# On macOS/Linux
+**On macOS/Linux**
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-# On Windows
+**On Windows**
 
 ```bash
 python -m venv venv
@@ -42,8 +42,8 @@ pip install -r requirements.txt
 
 ### 4. Set Up Google Cloud TTS
 
-- **Get your Google Cloud credentials and save the tts-project.json file in the root directory.**
-- **Create a .env file:**
+- Get your Google Cloud credentials and save the tts-project.json file in the root directory.
+- Create a .env file:
 
 ```bash
 GOOGLE_APPLICATION_CREDENTIALS="/path/to/your/tts-project.json"
@@ -59,4 +59,4 @@ This runs the program, and you can upload your files and convert them to audio.
 
 ### Future Plans
 
-I’m planning to turn this into a web app later, but for now, it’s just the program code. Enjoy converting your books to audio!
+I’m planning to turn this into a web app later, but for now, it’s just the program code. Enjoy converting your books to audio! 😄
